@@ -3,6 +3,6 @@
 
 def key_for_min_value(hash)
   hash.each do |key, value|
-    return key
-  end
+    key <=> value
+  end.first[0]
 end
