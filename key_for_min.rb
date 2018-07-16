@@ -3,7 +3,7 @@
 
 def key_for_min_value(hash)
   counter = 0
-  hash.each do |key, value|
+  hash.each do |key, value, counter|
     value.length == counter
       counter
     counter += 1
