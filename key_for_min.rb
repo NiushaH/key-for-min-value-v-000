@@ -8,3 +8,5 @@ def key_for_min_value(hash)
       counter
     counter += 1
   end.first[0]
+end
+  
